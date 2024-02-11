@@ -1,0 +1,68 @@
+.body {
+  height: 900px;
+  background-image: url('MacBook Pro - 1.jpg'); 
+  background-size: cover;}
+  label {
+    cursor: pointer;
+  }
+  .form { 
+    position: relative;
+  }
+
+
+ .fn{position: absolute;
+  left: 320px;
+  top: 230px;
+  letter-spacing: 1px;
+  }
+  .i1 {
+    position: absolute;
+    left: 320px;
+    top: 290px;}
+
+  .mail{position: absolute;
+    left: 320px;
+    top: 340px;letter-spacing: 1px;}
+
+  .i2{position: absolute;
+    left: 320px;
+    top: 390px;letter-spacing: 1px;}
+
+  .msr{position: absolute;
+    left: 320px;
+    top: 450px;letter-spacing: 1px;}
+  .i3{position: absolute;
+    left: 320px;
+    top: 510px;}
+  .ms{position: absolute;
+    left: 320px;
+    top: 540px;letter-spacing: 1px;}
+  .i4{position: absolute;
+    left: 320px;
+    top: 580px;letter-spacing: 1px;}
+
+
+
+.i1,
+.i2,
+.i4 {color: aliceblue;
+  border-top: none; border-left: none; border-right:none;  ;background-color:#BE0909; 
+border-color: #ffffff;}
+.i3{color: aliceblue;background-color:#BE0909; border: none; }
+.fn,.mail,.msr,.ms{color: #ffffff;font-family: 'Roboto', sans-serif;font-weight: bold; font-size: larger;}
+.i2::placeholder,
+.i3::placeholder,
+.i4::placeholder {
+  color: #ffffff;
+}
+
+
+.bt{
+color: #ffffff;
+  position: absolute;
+  width: 202px;
+  height: 48px;
+  left: 450px;
+  top: 670px;
+  background: #468189;
+  border-radius: 40px; border: none;}
